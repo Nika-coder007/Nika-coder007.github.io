@@ -33,7 +33,7 @@ const fonwhereInput = document.querySelector('.fonwhere');
 
         if (fonfullnameInput.value == '' || fonnumberInput.value == '' || fonnameInput.value == '' || fonfromInput.value == '' || fonfromInput.value == ''){
             alert('Вы заполнили не все поля, проверьте еще раз')
-        }else if (button.className == 'button' || button.className == 'button white'){
+        }else if (button.className == 'button' || button.className == 'button white' || button.className == 'button white blue'){
             alert('Пожалуйста дайте согласие на обработку персональных данных')
         }else{
             alert(`Ваше имя:${fonfullname}\n Ваш номер:${fonnumber}\n Ваш груз:${fonname}\n Город отправки:${fonfrom}\n Город доставки:${fonwhere}\n`)
